@@ -16,8 +16,10 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
-/* Typography Styles
+// Typography Styles
 h1, h2, h3 {
 /*    font-family: 'Open Sans', sans-serif; */
   font-family: 'Roboto', sans-serif;
