@@ -23,12 +23,12 @@
           </button>
           <%= link_to root_path, class: "navbar-brand" do %>
             <i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
-
-            JULIA's HOME
+            LearnYoTricks
           <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Tricks", tricks_path%></li>
             <li><%= link_to "About This Site", about_path %></li>
             <li><%= link_to "Contact Me", new_contact_path %></li>
           </ul>
